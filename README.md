@@ -10,8 +10,8 @@ Designed for users of all skill levels, this script offers a straightforward, me
 Whether you're performing basic discovery or in-depth security assessments, this script streamlines the scanning process, making it an invaluable tool for any network administrator or penetration tester.
 
 
-#to run :
-clone it 
+\n#to run :
+\n/clone it 
 then either run using : bash ./ScanVul
 or change permissions : chmod +x ScanVul.sh
 ./ScanVul.sh
