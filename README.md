@@ -1,17 +1,30 @@
-This bash script provides a simple, interactive, and user-friendly way to utilize the power of the nmap tool for network and host scanning. It offers an intuitive command-line interface that allows users to quickly and easily select from various scanning options to suit their needs, including:
+# ScanVul: User-Friendly Nmap Scanning Bash Script
 
-Ping Scan: Effortlessly discover live hosts in a given IP range or network, helping you identify which systems are online and responsive.
-Basic Scan: Conduct a fundamental scan to detect open ports and services on a target host or network, providing essential information about the accessibility of a device.
-Aggressive Scan: Execute a thorough scan that includes OS detection, version detection, script scanning, and traceroute, giving a detailed profile of the target system and its vulnerabilities.
-Custom Port Scan: Target specific ports on a host or network for more focused assessments, helping users pinpoint open services and potential security risks.
+ScanVul is a bash script that simplifies the process of scanning networks and hosts using the powerful `nmap` tool. It provides an interactive and user-friendly interface, allowing users to select from various scanning options to suit their needs.
 
+## Features
 
-Designed for users of all skill levels, this script offers a straightforward, menu-driven interface, allowing beginners and seasoned professionals alike to perform essential network diagnostics with ease.
-Whether you're performing basic discovery or in-depth security assessments, this script streamlines the scanning process, making it an invaluable tool for any network administrator or penetration tester.
+- **Ping Scan**: Discover live hosts in a given IP range or network, identifying which systems are online and responsive.
+- **Basic Scan**: Detect open ports and services on a target host or network, providing essential information about device accessibility.
+- **Aggressive Scan**: Perform a thorough scan that includes OS detection, version detection, script scanning, and traceroute, offering a detailed profile of the target system and its vulnerabilities.
+- **Custom Port Scan**: Target specific ports on a host or network for more focused assessments, helping users pinpoint open services and potential security risks.
 
+## Requirements
 
-#to run :
-clone it 
-then either run using : bash ./ScanVul
-or change permissions : chmod +x ScanVul.sh
-./ScanVul.sh
+- Bash shell
+- Nmap tool
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/LynxAlcyoneus/ScanVul.git
+2. Run it using bash command:
+   ```bash
+   bash ./ScanVul.sh
+OR 
+3. Give permission for execution:
+  ```bash
+   chmod +x ./ScanVul.sh
+   ./ScanVul.sh
+
