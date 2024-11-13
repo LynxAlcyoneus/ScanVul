@@ -2,6 +2,9 @@
 
 ScanVul is a bash script that simplifies the process of scanning networks and hosts using the powerful `nmap` tool. It provides an interactive and user-friendly interface, allowing users to select from various scanning options to suit their needs.
 
+![scanvul](https://github.com/user-attachments/assets/5bb60f9e-eecb-40dd-bd54-6f3dda26e124)
+
+
 ## Features
 
 - **Ping Scan**: Discover live hosts in a given IP range or network, identifying which systems are online and responsive.
